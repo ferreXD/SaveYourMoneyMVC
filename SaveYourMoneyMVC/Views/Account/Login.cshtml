@@ -1,0 +1,58 @@
+﻿@model SaveYourMoneyMVC.Models.Account.LoginModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Account/Shared/_Layout.cshtml";
+
+    var lang = System.Threading.Thread.CurrentThread.CurrentUICulture.IetfLanguageTag;
+
+    ViewData["Register"] = lang.Equals(LANGUAGE_ES) ? Resources.Account_Register_Es : Resources.Account_Register_En;
+    ViewData["Welcome"] = lang.Equals(LANGUAGE_ES) ? Resources.Account_WelcomeLogin_Es : Resources.Account_WelcomeLogin_En;
+    ViewData["NotMember"] = lang.Equals(LANGUAGE_ES) ? Resources.Account_NotMember_Es : Resources.Account_NotMember_En;
+
+    ViewData["Email"] = lang.Equals(LANGUAGE_ES) ? Resources.Account_Email_Es : Resources.Account_Email_En;
+    ViewData["Password"] = lang.Equals(LANGUAGE_ES) ? Resources.Account_Password_Es : Resources.Account_Password_En;
+    ViewData["RememberMe"] = lang.Equals(LANGUAGE_ES) ? Resources.Account_Remember_Es : Resources.Account_Remember_En;
+
+    ViewData["ButtonContinue"] = lang.Equals(LANGUAGE_ES) ? Resources.Button_Continue_Es : Resources.Button_Continue_En;
+}
+
+<div class="row justify-content-center mb-8">
+    <h1 class="col-xs-12 account-header m-b-50">Login</h1>
+    <div class="col-xs-12 text-center">
+        <p class="m-b-5">@ViewData["Welcome"] SaveYourMoney.</p>
+        <p>@ViewData["NotMember"] <span><a asp-controller="Account" asp-action="Register">@ViewData["Register"]</a></span></p>
+    </div>
+</div>
+<div class="row justify-content-center mb-5">
+    <form class="col-xs-12 col-md-5" asp-controller="Account" asp-action="Login" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group col-xs-12 mb-5">
+            <input id="Email" asp-for="Email" class="form-control form-custom" placeholder='@ViewData["Email"]'/>
+            <div class="m-t-15">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group col-xs-12 mb-5">
+            <input id="Password" asp-for="Password" class="form-control form-custom" placeholder='@ViewData["Password"]' />
+            <div class="col-xs-12 m-t-15">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group form-check mb-5">
+            <label class="form-check-label">
+                <input id="RememberMe" class="form-check-input" asp-for="RememberMe" /> @ViewData["RememberMe"]
+            </label>
+        </div>
+        <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-account">
+                <i class="fa-solid fa-circle-arrow-right m-r-10"></i>
+                @ViewData["ButtonContinue"]
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

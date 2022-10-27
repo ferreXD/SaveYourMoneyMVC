@@ -1,0 +1,22 @@
+﻿@using SaveYourMoneyMVC.Models.Error
+@model ErrorViewModel
+
+@{
+    ViewData["Title"] = Model.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var Controller = Model.Url.Split("/")[0];
+    var Action = Model.Url.Split("/")[1];
+}
+
+<div class="error-main-container">
+    <div class="row no-gutters">
+        <img class="col-2" src="~/images/logo.png" />
+    </div>
+    <div class="col-6 m-auto mt-5 text-center">
+        <h1>Oops!</h1>
+        <h2 class="text-black">@((int)Model.StatusCode) - @Model.Title</h2>
+        <h3 class="text-black">@Model.Message.</h3>
+        <a asp-controller="@Controller" asp-action="@Action" class="btn btn-primary gastos-download-button m-t-20">Go Back</a>
+    </div>
+</div>

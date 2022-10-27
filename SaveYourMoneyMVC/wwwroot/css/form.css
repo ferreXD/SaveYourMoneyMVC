@@ -1,0 +1,44 @@
+﻿.form-input-base {
+    height: 40px;
+    color: #8a8a8a;
+    background: #ececec;
+    border: none;
+    border-left: 3px solid #00a78d;
+    border-radius: 0;
+}
+
+.form-input-base:focus {
+    outline: 0;
+    border-color: #00a78d;
+    box-shadow: 0 0 0 0.25rem #00a78d25;
+}
+
+.form-input-file-text {
+    height: min-content;
+    width: 100%;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.form-input-file-padding-small {
+    padding: 5px 20px !important;
+}
+
+.form-input-file-padding-big {
+    padding: 10px 60px !important;
+}
+
+.form-textarea-small {
+    min-height: 150px !important;
+}
+
+.form-textarea-big {
+    min-height: 300px !important;
+}
+
+.form-input-dropdown-arrow {
+    position: absolute;
+
+    top: 50px;
+    right: 40px;
+}

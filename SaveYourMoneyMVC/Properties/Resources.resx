@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_AlreadyMember_En" xml:space="preserve">
+    <value>Already a member?</value>
+  </data>
+  <data name="Account_AlreadyMember_Es" xml:space="preserve">
+    <value>¿Ya eres miembro?</value>
+  </data>
+  <data name="Account_Email_En" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Account_Email_Es" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Account_Language_En" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Account_Language_Es" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Account_LoginHere_En" xml:space="preserve">
+    <value>Login here!</value>
+  </data>
+  <data name="Account_LoginHere_Es" xml:space="preserve">
+    <value>¡Inicia sesión aquí!</value>
+  </data>
+  <data name="Account_Name_En" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Account_Name_Es" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Account_NotMember_En" xml:space="preserve">
+    <value>Not a member yet?</value>
+  </data>
+  <data name="Account_NotMember_Es" xml:space="preserve">
+    <value>¿Todavía no eres miembro?</value>
+  </data>
+  <data name="Account_Password_En" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Account_Password_Es" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="Account_Register_En" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Account_Register_Es" xml:space="preserve">
+    <value>Registrarse</value>
+  </data>
+  <data name="Account_Remember_En" xml:space="preserve">
+    <value>Remember session?</value>
+  </data>
+  <data name="Account_Remember_Es" xml:space="preserve">
+    <value>¿Recordar sesión?</value>
+  </data>
+  <data name="Account_RepeatedPassword_En" xml:space="preserve">
+    <value>Repetir contraseña</value>
+  </data>
+  <data name="Account_RepeatedPassword_Es" xml:space="preserve">
+    <value>Repeat password</value>
+  </data>
+  <data name="Account_WelcomeLogin_En" xml:space="preserve">
+    <value>Welcome! Log in to access to</value>
+  </data>
+  <data name="Account_WelcomeLogin_Es" xml:space="preserve">
+    <value>¡Bienvenido! Inicia sesión para acceder a</value>
+  </data>
+  <data name="Account_WelcomeRegister_En" xml:space="preserve">
+    <value>Welcome! Register here to access to</value>
+  </data>
+  <data name="Account_WelcomeRegister_Es" xml:space="preserve">
+    <value>¡Bienvenido! Registrate aquí para acceder a</value>
+  </data>
+  <data name="AnalysisTitle_En" xml:space="preserve">
+    <value>Expends analysis</value>
+  </data>
+  <data name="AnalysisTitle_Es" xml:space="preserve">
+    <value>Análisis de gastos</value>
+  </data>
+  <data name="Analysis_NoData_En" xml:space="preserve">
+    <value>There is no data to show</value>
+  </data>
+  <data name="Analysis_NoData_Es" xml:space="preserve">
+    <value>NO EXISTEN GASTOS QUE MOSTRAR</value>
+  </data>
+  <data name="Button_Cancel_En" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Button_Cancel_Es" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Button_Clean_En" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="Button_Clean_Es" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="Button_Close_En" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Button_Close_Es" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="Button_Continue_En" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Button_Continue_Es" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="Button_Filter_En" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Button_Filter_Es" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="Button_Save_En" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Button_Save_Es" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Button_Search_En" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Button_Search_Es" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="CreateExpends_En" xml:space="preserve">
+    <value>New expend</value>
+  </data>
+  <data name="CreateExpends_Es" xml:space="preserve">
+    <value>Nuevo gasto</value>
+  </data>
+  <data name="Expends_DeleteExpend_En" xml:space="preserve">
+    <value>Expend deleted successfully</value>
+  </data>
+  <data name="Expends_DeleteExpend_Es" xml:space="preserve">
+    <value>Gasto eliminado con éxito</value>
+  </data>
+  <data name="Expends_Delete_Expend_En" xml:space="preserve">
+    <value>Delete expend</value>
+  </data>
+  <data name="Expends_Delete_Expend_Es" xml:space="preserve">
+    <value>Eliminar gasto</value>
+  </data>
+  <data name="Expends_DownloadCSV_En" xml:space="preserve">
+    <value>Download CSV</value>
+  </data>
+  <data name="Expends_DownloadCSV_Es" xml:space="preserve">
+    <value>Descargar CSV</value>
+  </data>
+  <data name="Expends_DownloadFile_Expend_En" xml:space="preserve">
+    <value>Download attached file</value>
+  </data>
+  <data name="Expends_DownloadFile_Expend_Es" xml:space="preserve">
+    <value>Descargar fichero adjunto</value>
+  </data>
+  <data name="Expends_EditedExpend_En" xml:space="preserve">
+    <value>Expend successfully edited</value>
+  </data>
+  <data name="Expends_EditedExpend_Es" xml:space="preserve">
+    <value>Gasto modificado con éxito</value>
+  </data>
+  <data name="Expends_Edit_Expend_En" xml:space="preserve">
+    <value>Edit expend</value>
+  </data>
+  <data name="Expends_Edit_Expend_Es" xml:space="preserve">
+    <value>Editar gasto</value>
+  </data>
+  <data name="Expends_NewExpend_En" xml:space="preserve">
+    <value>New expend successfully created</value>
+  </data>
+  <data name="Expends_NewExpend_Es" xml:space="preserve">
+    <value>Nuevo gasto creado con éxito</value>
+  </data>
+  <data name="Expends_PopupMessage_En" xml:space="preserve">
+    <value>The file has been successfully downloaded to your download directory</value>
+  </data>
+  <data name="Expends_PopupMessage_Es" xml:space="preserve">
+    <value>El fichero se ha descargado exitosamente en tu directorio de descargas</value>
+  </data>
+  <data name="Expends_Table_Created_En" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="Expends_Table_Created_Es" xml:space="preserve">
+    <value>Fecha de creación</value>
+  </data>
+  <data name="Expends_Table_Description_En" xml:space="preserve">
+    <value>Expend description</value>
+  </data>
+  <data name="Expends_Table_Description_Es" xml:space="preserve">
+    <value>Descripción del gasto</value>
+  </data>
+  <data name="Expends_Table_File_En" xml:space="preserve">
+    <value>Attached file</value>
+  </data>
+  <data name="Expends_Table_File_Es" xml:space="preserve">
+    <value>Fichero adjunto</value>
+  </data>
+  <data name="Expends_Table_NoFile_En" xml:space="preserve">
+    <value>No attached file</value>
+  </data>
+  <data name="Expends_Table_NoFile_Es" xml:space="preserve">
+    <value>No hay fichero adjunto</value>
+  </data>
+  <data name="Expends_Table_Quantity_En" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Expends_Table_Quantity_Es" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="Expends_Table_Type_En" xml:space="preserve">
+    <value>Expend type</value>
+  </data>
+  <data name="Expends_Table_Type_Es" xml:space="preserve">
+    <value>Tipo de gasto</value>
+  </data>
+  <data name="Expends_ViewComment_Expend_En" xml:space="preserve">
+    <value>Show full description</value>
+  </data>
+  <data name="Expends_ViewComment_Expend_Es" xml:space="preserve">
+    <value>Ver descripción completa</value>
+  </data>
+  <data name="Filter_EndDate_En" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="Filter_EndDate_Es" xml:space="preserve">
+    <value>Fecha de fin</value>
+  </data>
+  <data name="Filter_InitialDate_En" xml:space="preserve">
+    <value>Initial date</value>
+  </data>
+  <data name="Filter_InitialDate_Es" xml:space="preserve">
+    <value>Fecha de inicio</value>
+  </data>
+  <data name="Filter_Options_All_En" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Filter_Options_All_Es" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="Filter_Type_En" xml:space="preserve">
+    <value>Expend type</value>
+  </data>
+  <data name="Filter_Type_Es" xml:space="preserve">
+    <value>Tipo de gasto</value>
+  </data>
+  <data name="InternalServerError_En" xml:space="preserve">
+    <value>Server Error</value>
+  </data>
+  <data name="InternalServerError_Es" xml:space="preserve">
+    <value>Error del servidor</value>
+  </data>
+  <data name="InternalServerError_Message_En" xml:space="preserve">
+    <value>The action could not be completed due to an internal system error. Please try again.</value>
+  </data>
+  <data name="InternalServerError_Message_Es" xml:space="preserve">
+    <value>No se ha podido completar la acción por un error interno del sistema. Vuelva a intentarlo.</value>
+  </data>
+  <data name="InvalidPassword_En" xml:space="preserve">
+    <value>Invalid credentials</value>
+  </data>
+  <data name="InvalidPassword_Es" xml:space="preserve">
+    <value>Credenciales invalidas</value>
+  </data>
+  <data name="InvalidPassword_Message_En" xml:space="preserve">
+    <value>The credentials entered are not valid</value>
+  </data>
+  <data name="InvalidPassword_Message_Es" xml:space="preserve">
+    <value>Las credenciales introducidas no son validas</value>
+  </data>
+  <data name="NavMenu_Analysis_En" xml:space="preserve">
+    <value>Analysis</value>
+  </data>
+  <data name="NavMenu_Analysis_Es" xml:space="preserve">
+    <value>Análisis</value>
+  </data>
+  <data name="NavMenu_ChangeLang_Message_En" xml:space="preserve">
+    <value>This action will log you out to ensure changes. Continue?</value>
+  </data>
+  <data name="NavMenu_ChangeLang_Message_Es" xml:space="preserve">
+    <value>Esta acción cerrará la sesión para asegurar los cambios. ¿Continuar?</value>
+  </data>
+  <data name="NavMenu_ChangeLang_Title_En" xml:space="preserve">
+    <value>Change language</value>
+  </data>
+  <data name="NavMenu_ChangeLang_Title_Es" xml:space="preserve">
+    <value>Cambiar idioma</value>
+  </data>
+  <data name="NavMenu_Create_En" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="NavMenu_Create_Es" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="NavMenu_DeleteAccount_En" xml:space="preserve">
+    <value>Delete account</value>
+  </data>
+  <data name="NavMenu_DeleteAccount_Es" xml:space="preserve">
+    <value>Eliminar cuenta</value>
+  </data>
+  <data name="NavMenu_Expends_En" xml:space="preserve">
+    <value>Expends</value>
+  </data>
+  <data name="NavMenu_Expends_Es" xml:space="preserve">
+    <value>Gastos</value>
+  </data>
+  <data name="NavMenu_Logout_En" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="NavMenu_Logout_Es" xml:space="preserve">
+    <value>Cerrar sesión</value>
+  </data>
+  <data name="NavMenu_Panel_En" xml:space="preserve">
+    <value>Analysis panel</value>
+  </data>
+  <data name="NavMenu_Panel_Es" xml:space="preserve">
+    <value>Panel de análisis</value>
+  </data>
+  <data name="NavMenu_User_En" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="NavMenu_User_Es" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="NavMenu_View_En" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="NavMenu_View_Es" xml:space="preserve">
+    <value>Consultar</value>
+  </data>
+  <data name="RepeatedEmail_En" xml:space="preserve">
+    <value>Repeated email</value>
+  </data>
+  <data name="RepeatedEmail_Es" xml:space="preserve">
+    <value>Email duplicado</value>
+  </data>
+  <data name="RepeatedEmail_Message_En" xml:space="preserve">
+    <value>We have not been able to create an account with the entered email, as there is one with this email address</value>
+  </data>
+  <data name="RepeatedEmail_Message_Es" xml:space="preserve">
+    <value>No hemos podido crear una cuenta con el email introducido, ya que existe una con ese email</value>
+  </data>
+  <data name="RepeatedUsername_En" xml:space="preserve">
+    <value>Duplicated username</value>
+  </data>
+  <data name="RepeatedUsername_Es" xml:space="preserve">
+    <value>Nombre de usuario duplicado</value>
+  </data>
+  <data name="RepeatedUsername_Message_En" xml:space="preserve">
+    <value>We have not been able to create an account with the entered username, as there is one with that username</value>
+  </data>
+  <data name="RepeatedUsername_Message_Es" xml:space="preserve">
+    <value>No hemos podido crear una cuenta con el nombre de usuario introducido, ya que existe una con ese nombre</value>
+  </data>
+  <data name="UserNotFound_En" xml:space="preserve">
+    <value>No registered email</value>
+  </data>
+  <data name="UserNotFound_Es" xml:space="preserve">
+    <value>Email no registrado</value>
+  </data>
+  <data name="UserNotFound_Message_En" xml:space="preserve">
+    <value>There is no user registered with the provided email</value>
+  </data>
+  <data name="UserNotFound_Message_Es" xml:space="preserve">
+    <value>No hay ningún usuario registrado con el correo electrónico proporcionado</value>
+  </data>
+  <data name="ViewExpends_En" xml:space="preserve">
+    <value>My expends</value>
+  </data>
+  <data name="ViewExpends_Es" xml:space="preserve">
+    <value>Mis gastos</value>
+  </data>
+</root>

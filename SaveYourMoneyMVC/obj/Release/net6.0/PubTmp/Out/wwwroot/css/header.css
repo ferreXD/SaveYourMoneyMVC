@@ -1,0 +1,40 @@
+﻿.header {
+    padding: 15px;
+    background-color: #2B7A78;
+    color: #D2EEE8;
+
+    position: relative;
+}
+
+.header-text-container {
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+.language-container {
+    width: 75px;
+    height: 75px;
+    background-color: #D2EEE8;
+    border-radius: 100%;
+    color: #2B7A78;
+
+    position: absolute;
+    right: 5%;
+    top: 12%;
+
+    cursor: pointer;
+    appearance: none;
+}
+
+.language-container:focus-visible, .language-container:focus{
+    outline: none
+}
+
+@media (max-width: 750px) {
+    .language-container {
+        width: 50px;
+        height: 50px;
+
+        top: 25%;
+    }
+}
